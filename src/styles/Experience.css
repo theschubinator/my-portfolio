@@ -1,0 +1,21 @@
+#experience .ruby {
+	text-align: center;
+}
+
+#experience .ruby img {
+	padding-bottom: 32px;
+}
+
+#experience .java-script {
+	text-align: center
+}
+
+#experience .pro-con {
+	margin: 20px 0 0 30px;
+	font-size: 18px;
+}
+
+#experience .pro-con img {
+	width: 30px;
+	margin-right: 10px;
+}
