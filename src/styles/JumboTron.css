@@ -1,4 +1,9 @@
-.job-position {
+.jumbotron {
+	margin: 0;
+	padding: 0;
+}
+
+.jumbotron h1 {
 	position: absolute;
 	top: 120px;
 	left: 100px;
@@ -6,3 +11,4 @@
 	background: rgba(0,0,0,0.5);
 	padding: 20px;
 }
+

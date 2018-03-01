@@ -7,6 +7,11 @@ const Projects = () => {
 	return (
 		<div id="projects" className="container">
 			<div className="row">
+				<div className="col-sm-12">
+					<h1>Projects</h1>
+				</div>
+			</div>
+			<div className="row">
 				<div className="col-sm-12 col-md-4">
 					<img id="trivia-master" className="img-fluid" src={Rails} alt="Trivia Master" />
 					<a href="http://trivia-master.herokuapp.com/" target="_blank"><h3>Trivia Master</h3></a>

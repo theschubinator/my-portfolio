@@ -27,7 +27,7 @@ export default class NavBar extends Component {
 				<div id="nav-bar">
 					<Navbar color='dark' dark expand="md" className="fixed-top">
 					<NavbarToggler onClick={this.toggle} />
-					<NavbarBrand href="/">Home</NavbarBrand>
+					<NavbarBrand href="/">Andrew Schubert</NavbarBrand>
 					<Collapse isOpen={this.state.isOpen} navbar>
 						<Nav className="ml-auto" navbar>
 							<br></br>

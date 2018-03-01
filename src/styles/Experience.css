@@ -1,9 +1,31 @@
+#experience {
+	margin-bottom: 40px;
+}
+
+#experience h1 {
+	text-align: center;
+	margin-bottom: -2px;
+}
+
+#experience .lang {
+	text-align: center;
+}
+
+#experience .lang p {
+	text-align: center;
+}
+
+#experience .lang img {
+	width: 80px;
+}
+
 #experience .ruby {
 	text-align: center;
 }
 
-#experience .ruby img {
-	padding-bottom: 32px;
+/* Program Lang Logos */
+#experience .logo {
+	width: 150px;
 }
 
 #experience .java-script {
@@ -15,6 +37,7 @@
 	font-size: 18px;
 }
 
+/* Green Check Boxes */
 #experience .pro-con img {
 	width: 30px;
 	margin-right: 10px;
