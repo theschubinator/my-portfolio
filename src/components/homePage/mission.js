@@ -1,6 +1,6 @@
 import React from 'react';
 
-import '../styles/Mission.css';
+import '../../styles/Mission.css';
 
 const Mission = () => {
 	return (

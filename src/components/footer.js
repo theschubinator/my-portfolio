@@ -11,12 +11,12 @@ const Footer = () => {
 		<div id="footer" className="container-fluid">
 			<div className="row">
 				<div className="co-sm-12">
-					<img id="my-face" src={myFace} alt="Picture of Andrew Schubert" />
+					<img id="my-face" src={myFace} alt="Andrew Schubert" />
 					<div id="image-1">
-						<a  href="https://linkedin.com/in/andrew-schubert" target="_blank"><img src={linkedIn} alt="Git Hub Logo" /></a>
+						<a  href="https://linkedin.com/in/andrew-schubert" target="_blank" rel="noopener noreferrer"><img src={linkedIn} alt="Git Hub Logo" /></a>
 					</div>
 					<div id="image-2">
-						<a href="https://github.com/theschubinator" target="_blank" ><img src={gitHub} alt="LinkedIn Logo" /></a>
+						<a href="https://github.com/theschubinator" target="_blank" rel="noopener noreferrer"><img src={gitHub} alt="LinkedIn Logo" /></a>
 					</div>
 					<div id="image-3">
 						<a href="mailto:andrew.schubert@1986@gmail.com?Subject=Would love to chat."><img src={Email} alt="Email Logo" /></a>

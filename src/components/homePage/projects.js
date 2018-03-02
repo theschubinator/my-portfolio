@@ -1,7 +1,7 @@
 import React from 'react';
 
-import '../styles/Projects.css';
-import Rails from "../media/rails.png"
+import '../../styles/Projects.css';
+import Rails from "../../media/rails.png"
 
 const Projects = () => {
 	return (
@@ -14,11 +14,11 @@ const Projects = () => {
 			<div className="row">
 				<div className="col-sm-12 col-md-4">
 					<img id="trivia-master" className="img-fluid" src={Rails} alt="Trivia Master" />
-					<a href="http://trivia-master.herokuapp.com/" target="_blank"><h3>Trivia Master</h3></a>
+					<a href="http://trivia-master.herokuapp.com/" target="_blank" rel="noopener noreferrer"><h3>Trivia Master</h3></a>
 				</div>
 				<div className="col-sm-12 col-md-4">
 					<img id="trivia-master" className="img-fluid" src={Rails} alt="Trivia Master" />
-					<a href="http://stay-informed.herokuapp.com/" target="_blank"><h3>Stay Informed</h3></a>
+					<a href="http://stay-informed.herokuapp.com/" target="_blank" rel="noopener noreferrer"><h3>Stay Informed</h3></a>
 				</div>
 				<div className="col-sm-12 col-md-4">
 					<img id="trivia-master" className="img-fluid" src={Rails} alt="Trivia Master" />
