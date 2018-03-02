@@ -2,64 +2,118 @@
 	text-align: center;
 }
 
-#skills img {
+#skills h1 {
+	text-align: center;
+	font-size:70px;
+	margin: 20px;
+}
+
+
+
+#skills .logo img {
 	padding: 30px;
-	margin-right: 30px;
-	margin-left: 30px;
-	border: white;
-	width: 350px;
-	float: left;
+	border: hidden;
 }
 
-#logos {
-	display: inline-block;
+#skills .logo .description {
+	text-align: left;
 }
 
-#logos div {
-}
+/* cellphones */
+@media (max-width: 768px) {
+	#skills .logo img {
+		width: 220px;
+	}
 
-#display-text {
-	float:left;
-	position: relative;
-	right: 120px;
-	top: 100px;
-	font-size: 24px;
-	/* visibility: hidden; */
+	#skills .logo .description {
+		margin: auto;
+		margin-top: 20px;
+		font-size: 20px;
+	}
 }
+/* -------------------- */
 
-span:hover #display-text {
-	visibility: visible;
-	color: red;
-}
+/* tablets */
+@media (min-width: 768px) {
+	#skills .logo img {
+		width: 300px;
+	}
 
-span:hover img {
-	opacity: 0.15;
-	filter: alpha(opacity=50);
+	#skills .logo .description {
+		margin: auto;
+		margin-top: 20px;
+		font-size: 20px;
+	}
 }
-
-@media only screen and (max-width: 1200px) {
-  #skills img {
-		width: 200px;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  #skills img {
-		width: 200px;
-		margin: 0;
-  }
-}
+/* -------------------- */
 
 
-#some-element {
-  border: 1px solid #ccc;
-  /* display: none; */
-  font-size: 10px;
-  margin-top: 10px;
-  padding: 5px;
-  text-transform: uppercase;
-}
+/* desktop screens */
+@media (min-width: 992px) {
 
-#some-div:hover #some-element {
-	color:red
+	#skills .logo {
+		margin-bottom: -140px;
+	}
+
+	#display-text .logo-1 {
+		position: relative;
+		bottom: 273px;
+		left: 25px;
+	}
+
+	#display-text .logo-2 {
+		position: relative;
+		bottom: 275px;
+	}
+
+	#display-text .logo-3 {
+		position: relative;
+		bottom: 265px;
+		left:10px;
+	}
+
+	#display-text .logo-4 {
+		position: relative;
+		bottom: 290px;
+		left:20px;
+	}
+
+	#display-text .logo-5 {
+		position: relative;
+		bottom: 250px;
+		left:15px;
+	}
+
+	#display-text .logo-6 {
+		position: relative;
+		bottom: 275px;
+		left:5px;
+	}
+
+	.logo .description {
+		visibility: hidden;
+	}
+
+	.logo:hover .description {
+		visibility: visible;
+	}
+
+	.logo:hover img {
+		opacity: 0.2;
+	}
+
+	#display-text h1 {
+		display: block;
+	}
+
+	#skills .logo img {
+		width: 350px;
+	}
+
+	#skills .logo .description {
+		margin: auto;
+		margin-top: 20px;
+		font-size: 26px;
+	}
 }
+/* --------------------- */

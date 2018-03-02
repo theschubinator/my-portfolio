@@ -39,7 +39,7 @@ class NavBar extends Component {
 									<NavLink href="https://medium.com/schubiedoobycode" target="_blank">Blog</NavLink>
 								</NavItem>
 								<NavItem>
-									<NavLink href="/resume">Resume</NavLink>
+									<NavLink href="/resume">About Me</NavLink>
 								</NavItem>
 							</Nav>
 						</Collapse>
