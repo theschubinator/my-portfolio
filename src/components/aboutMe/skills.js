@@ -61,7 +61,7 @@ const Skills = () => {
 					</span>
 				</div>
 
-				<div className="col-sm-12 col-md-4 logo">
+				<div className="col-sm-12 col-md-4 logo bottom">
 					<span>
 						<img src={Rails} className="img-thumbnail card-3"/>
 						<span id="display-text">
@@ -74,7 +74,7 @@ const Skills = () => {
 					</span>
 				</div>
 
-				<div className="col-sm-12 col-md-4 logo">
+				<div className="col-sm-12 col-md-4 logo bottom">
 					<span>
 						<img src={Sql} className="img-thumbnail card-2"/>
 						<span id="display-text">
@@ -86,7 +86,7 @@ const Skills = () => {
 					</span>
 				</div>
 
-				<div className="col-sm-12 col-md-4 logo">
+				<div className="col-sm-12 col-md-4 logo bottom">
 					<span>
 						<img src={CSSLang} className="img-thumbnail card-7"/>
 						<span id="display-text">

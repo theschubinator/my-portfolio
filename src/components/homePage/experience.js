@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import '../../styles/Experience.css';
 import Ruby from '../../media/ruby.png';
-import JavaScript from '../../media/javascript.png';
+import JavaScript from '../../media/javaScript.png';
 
 import greenCheck from '../../media/green_check.png';
 import rails from '../../media/rails.png';

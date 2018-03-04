@@ -13,6 +13,7 @@
 #skills .logo img {
 	padding: 30px;
 	border: hidden;
+	background-color: transparent;
 }
 
 #skills .logo .description {
@@ -50,11 +51,6 @@
 
 /* desktop screens */
 @media (min-width: 992px) {
-
-	#skills .logo {
-		margin-bottom: -140px;
-	}
-
 	#display-text .logo-1 {
 		position: relative;
 		bottom: 273px;

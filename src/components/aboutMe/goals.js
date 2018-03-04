@@ -2,12 +2,23 @@ import React from 'react'
 
 const Goals = () => {
 	return (
-		<div>
-			<p>Full stack web developer with a passion for designing creative, user-friendly web applications. With experience in React/Redux, 
-				 JavaScript, and Ruby on Rails, I discovered an affection for programming through my love of technology, knowledge, and passion 
-				 for challenges. Along with being a self-motivator, I bring strong skills in communication, organization, and problem-solving 
-				 that help advance companies towards their ultimate mission.
-			</p>
+		<div className="container">
+			<div className="row">
+				<div className="col-sm-12">
+					<h1>Programming Is My Passion</h1>
+				</div>
+			</div>
+			<div className="row">
+				<div className="col-sm-12">
+				<iframe 
+					width="560" height="315" 
+					src="https://www.youtube.com/embed/3OPzCLPuwHU" 
+					frameborder="0" 
+					allow="autoplay; encrypted-media" 
+					allowfullscreen="allowfullscreen">
+				</iframe>
+				</div>
+			</div>
 		</div>
 	);
 }
