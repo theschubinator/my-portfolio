@@ -1,0 +1,93 @@
+#goals {
+	text-align: center;
+}
+
+#goals h1 {
+	margin: 20px 0px 30px 0px;
+}
+
+#goals button {
+	font-size: 26px;
+	padding: 20px;
+	margin: 20px 0 40px 0;
+	border: 5px dotted white;
+	background-color: blue;
+	color: white;
+}
+
+#goals .passion-summary p {
+	border: 1px solid black;
+	padding: 5px;
+	background-color: gray;
+	box-shadow: 5px 5px 5px black;
+	color: white;
+	margin: 0;
+	text-align: center;
+}
+
+#goals .passion-summary p:last-child {
+	margin: 10px 0px 10px 0px;
+}
+
+#goals img {
+	width: 140px;
+	margin:20px 0px 40px 0px;
+}
+
+#goals .passion {
+	font-size: 32px;
+}
+
+/* Cell Phones */
+@media (max-width: 768px) {
+	#goals .passion {
+		display: none;
+	}
+
+	#goals .passion-summary {
+		font-size: 20px
+	}
+}
+/* ----------------- */
+
+/* Tables */
+@media (min-width: 768px) {
+	#goals .passion-summary {
+		font-size: 24px;
+		margin: auto;
+	}
+}
+/* ----------------- */
+
+/* Desktop Screens */
+@media (min-width: 1200px) {
+	#goals iframe {
+		width: 410px;
+		height: 229px;
+		margin: 100px 0 0 10px;
+	}
+}
+
+@media (min-width: 1500px) {
+	#goals iframe {
+		width: 550px;
+		height: 308px;
+		margin: 70px 0 0 20px;
+	}
+}
+
+@media (min-width: 1920px) {
+	#goals iframe {
+		width: 700px;
+		height: 393px;
+		margin: 45px 0 0 45px;
+	}
+}
+
+@media (min-width: 2500px) {
+	#goals .right div {
+		width: 900px;
+		margin: auto;
+	}
+}
+/* ----------------- */

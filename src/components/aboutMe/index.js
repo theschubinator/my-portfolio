@@ -9,7 +9,6 @@ import myResume from '/Users/theschubinator/Documents/code/port/src/media/andrew
 const AboutMe = () => {
 	return (
 		<div>
-			<a href={myResume} download><button>Download Resume</button></a>
 			<Goals />
 			<Skills />
 		</div>

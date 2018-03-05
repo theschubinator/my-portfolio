@@ -16,6 +16,10 @@
 	background-color: transparent;
 }
 
+#skills .logo:last-child {
+	margin-bottom: 50px;
+}
+
 #skills .logo .description {
 	text-align: left;
 }
