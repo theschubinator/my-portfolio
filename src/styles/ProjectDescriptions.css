@@ -1,0 +1,50 @@
+#projects-page {
+	text-align: center;
+	overflow: hidden;
+}
+
+#projects-page h1 {
+	margin: 60px 0 20px 0;
+}
+
+#projects-page .row {
+	margin: 30px 0 15px 0;
+}
+
+#projects-page .github {
+	position: relative;
+	bottom: 58px;
+	left: 144px;
+	width:59px;
+}
+
+#projects-page ul {
+	text-align: left;
+}
+
+#projects-page li {
+	margin: 10px 0 10px 0;
+	font-size: 20px;
+}
+
+@media (min-width: 768px) {
+	#projects-page img {
+		margin-top: 35px;
+	}
+}
+
+@media (min-width: 992px) {
+	#projects-page img {
+		margin-top: 0px;
+	}
+}
+
+@media (min-width: 1200px) {
+	#projects-page img {
+		margin-top: 0px;
+	}
+
+	#projects-page li {
+		font-size: 24px;
+	}
+}

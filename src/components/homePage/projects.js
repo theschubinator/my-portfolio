@@ -11,13 +11,14 @@ const Projects = () => {
 			<div className="row">
 				<div className="col-sm-12">
 					<h1>Projects</h1>
+					<p>For more information about these projects click <a href="/projects">here</a></p>
 				</div>
 			</div>
 			<div className="row">
 
 				<div className="col-sm-12 col-md-4 project">
 					<a href="http://trivia-master.herokuapp.com/" target="_blank" rel="noopener noreferrer">	
-			<img className="trivia-master img-fluid" src={triviaMaster} alt="Trivia Master" />
+						<img className="trivia-master img-fluid" src={triviaMaster} alt="Trivia Master" />
 					</a>
 				</div>
 

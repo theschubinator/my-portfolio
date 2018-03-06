@@ -1,14 +1,21 @@
 .jumbotron {
 	margin: 0;
 	padding: 0;
+	text-align: center;
 }
 
 .jumbotron h1 {
+	font-size: 40px;
 	position: absolute;
 	top: 120px;
 	left: 100px;
 	color: white;
 	background: rgba(0,0,0,0.5);
 	padding: 20px;
+}
+
+#description {
+	display: block;
+	font-size: 40px;
 }
 

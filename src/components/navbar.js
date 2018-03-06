@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../styles/NavBar.css';
+import signature from '../media/signature.png';
 
 import {
   Collapse,
@@ -31,7 +32,7 @@ class NavBar extends Component {
 			return (
 				<div id="nav-bar">
 					<Navbar color="faded" dark expand="md">
-						<NavbarBrand href="/">Andrew Schubert</NavbarBrand>
+						<NavbarBrand href="/"><img src={signature} alt="my signature" /></NavbarBrand>
 						<NavbarToggler onClick={this.toggle} />
 						<Collapse isOpen={this.state.isOpen} navbar>
 							<Nav className="ml-auto" navbar>
