@@ -3,7 +3,7 @@ import React from 'react';
 import Goals from './goals';
 import Skills from './skills';
 
-import myResume from '/Users/theschubinator/Documents/code/port/src/media/andrew_schubert_resume.pdf';
+import myResume from '../../media/andrew_schubert_resume.pdf';
 
 
 const AboutMe = () => {

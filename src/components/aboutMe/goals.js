@@ -5,7 +5,7 @@ import Building from '../../media/building.png';
 import Thinking from '../../media/thinking.png';
 import Computer from '../../media/computer.png';
 import Heart from '../../media/heart.png';
-import myResume from '/Users/theschubinator/Documents/code/port/src/media/andrew_schubert_resume.pdf';
+import myResume from '../../media/andrew_schubert_resume.pdf';
 
 const Goals = () => {
 	return (

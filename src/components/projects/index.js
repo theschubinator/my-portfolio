@@ -47,7 +47,7 @@ const Index = () => {
 
 				<div className="row">
 					<div className="col-sm-12 col-md-4 project">
-						<a href="#">
+						<a href="https://github.com/theschubinator/card_collection" target="_blank" rel="noopener noreferrer">
 							<img className="img-fluid" src={cardCollection} alt="Trivia Master" />
 							<a href="https://github.com/theschubinator/card_collection" target="_blank" rel="noopener noreferrer"><img className="github" src={gitHub} alt="Github" /></a>
 						</a>	
