@@ -1,0 +1,61 @@
+#my-resume {
+	/* margin: 150px 0 30px 20px; */
+	margin: auto;
+	padding: 20px;
+	text-align: left;
+	margin-bottom: 50px;
+}
+
+#my-resume button {
+	font-size: 20px;
+	padding: 10px;
+	margin: auto;
+	border: 5px dotted black;
+	background-color:#186AC7;
+	color: #F5F5F5;
+}
+
+#top-heading {
+	text-align: center;
+	margin: 50px 0 20px 0;
+}
+
+#my-resume .mission-statement {
+	text-align: center;
+}
+
+#my-resume .mission-statement p {
+	text-align: left;
+	font-size: 23px;
+	margin: 20px;
+}
+
+#my-resume .heading {
+	padding: 5px;
+	background-color: grey;
+	color: white;
+}
+
+#my-resume .section {
+	font-size: 25px;
+}
+
+.basic {
+	text-align: center;
+}
+
+#my-resume .new-section p {
+	margin: 0;
+}
+
+@media (min-width: 992px) {
+	#my-resume {
+		width: 75%;
+	}
+}
+
+@media (min-width: 2000px) {
+	#my-resume {
+		width: 70%;
+	}
+}

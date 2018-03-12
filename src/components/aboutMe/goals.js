@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 import '../../styles/Goals.css';
 import Building from '../../media/building.png';
@@ -15,11 +16,12 @@ const Goals = () => {
 					<h1>Programming Is My Passion</h1>
 				</div>
 				<div className="col-sm-12">
+					<Link to="/resume" download><button>View Resume</button></Link>
 					<a href={myResume} download><button>Download Resume</button></a>
 				</div>		
 			</div>
 			<div className="row">
-				<div className="col-sm-12 col-xl-4 video">
+				{/* <div className="col-sm-12 col-xl-4 video">
 					<iframe 
 						width="560" height="315" 
 						src="https://www.youtube.com/embed/3OPzCLPuwHU" 
@@ -27,8 +29,10 @@ const Goals = () => {
 						allow="autoplay; encrypted-media" 
 						allowfullscreen="allowfullscreen">
 					</iframe>
-				</div>
-				<div className="col-xl-8 right">
+				</div> */}
+
+				<div className="col-sm-12 right">
+				{/* <div className="col-xl-8 right"> */}
 					<div className="col-sm-12  passion">
 						<img src={Building} alt="Wilis Towers" /> <span>+</span> &nbsp;
 						<img src={Thinking} alt="Thinking Person" /> &nbsp;<span>+</span> &nbsp;	

@@ -40,7 +40,7 @@ class NavBar extends Component {
 									<NavLink href="/projects">Projects</NavLink>
 								</NavItem>
 								<NavItem>
-									<NavLink href="/resume">About Me</NavLink>
+									<NavLink href="/about-me">About Me</NavLink>
 								</NavItem>
 								<NavItem>
 									<NavLink href="https://medium.com/schubiedoobycode" target="_blank">Blog</NavLink>

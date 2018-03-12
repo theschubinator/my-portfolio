@@ -16,7 +16,7 @@ const Experience = () => {
 			<div className="row">
 				<div className="col-sm-12 lang">
 					<h1>Experienced with the Following Frameworks</h1>
-					<p><em>Please <Link to="/resume">view</Link> my resume for full details</em></p>
+					<p><em>Please <Link to="/about-me">view</Link> my resume for full details</em></p>
 					<div className="lang">
 						<img src={rails} alt="Ruby On Rails" />
 						<img src={react} alt="React.js" />

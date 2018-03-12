@@ -40,8 +40,7 @@ const Skills = () => {
 						<span id="display-text">
 						<div className="col-sm-8 col-md-12 description logo-2">
 							<p>
-								React is my go to framework of choice for its organizational abilities,
-								and its <em>lightening fast</em> client-side rendering capabilities.
+								<strong>I love working with React!</strong> It is my favorite framework to work with.
 							</p>
 						</div>
 						</span>
@@ -53,8 +52,8 @@ const Skills = () => {
 						<img src={Nodejs} className="img-thumbnail card-5"/>
 						<span id="display-text">
 							<div className="col-sm-8 col-md-12 description logo-3">
-								<p>I am currently working to learn Node.js for its ability to serve up
-									applications much faster than other back-end applications.
+								<p>Some experience with Node.js and its ability to serve up
+									back-end applications.
 								</p>
 							</div>
 						</span>
@@ -79,7 +78,7 @@ const Skills = () => {
 						<img src={Sql} className="img-thumbnail card-2"/>
 						<span id="display-text">
 							<div className="col-sm-8 col-md-12 description logo-5">
-								<p>Understanding of SQL, and its ability to query databases for information.
+								<p>Some understanding of SQL, and its ability to query databases for information.
 								</p>
 							</div>
 						</span>
