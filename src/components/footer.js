@@ -14,8 +14,8 @@ const Footer = () => {
 				<div id="personal-info" className="col-sm-12 col-md-6">
 					<img id="andrew-schubert" src={myFace} alt="Andrew Schubert" />
 					<p id="social-media">
-						<a href="https://www.linkedin.com/in/andrew-schubert/" target="_blank"><img src={linkedIn} alt="linkedIn" /></a>
-						<a href="https://github.com/theschubinator" target="_blank"><img src={gitHub} alt="github" /></a>
+						<a href="https://www.linkedin.com/in/andrew-schubert/" target="_blank" rel="noopener noreferrer"><img src={linkedIn} alt="linkedIn" /></a>
+						<a href="https://github.com/theschubinator" target="_blank" rel="noopener noreferrer"><img src={gitHub} alt="github" /></a>
 						<a href="mailto:andrew.schubert1986@gmail.com?Subject=I would love to chat..." target="_top"><img src={Email} alt="email" /></a>
 					</p>
 					<a href="tel:832-784-5666"><p id="phone-number">(832)784-5666</p></a>

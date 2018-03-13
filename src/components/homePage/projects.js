@@ -3,7 +3,6 @@ import React from 'react';
 import '../../styles/Projects.css';
 import triviaMaster from '../../media/triviaMaster.png';
 import stayInformed from '../../media/stayInformed.png';
-import cardCollection from '../../media/cardCollection.png';
 
 const Projects = () => {
 	return (

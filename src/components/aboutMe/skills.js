@@ -1,11 +1,9 @@
 import React from 'react'
 import '../../styles/Skills.css';
 
-import Ruby from '../../media/ruby.png';
 import JavaScript from '../../media/javaScript.png';
 import CSSLang from '../../media/css.png';
 import Sql from '../../media/sql.png';
-import Git from '../../media/github.png';
 import Nodejs from '../../media/node.png';
 import Rails from '../../media/rails.png';
 import ReactLogo from '../../media/react.png';
@@ -22,7 +20,7 @@ const Skills = () => {
 	
 					<div className="col-sm-12 col-md-4 logo">
 					<span>
-						<img src={JavaScript} className="img-thumbnail card-4"/>
+						<img src={JavaScript} alt="javaScript"className="img-thumbnail card-4"/>
 						<span id="display-text">
 						<div className="col-sm-8 col-md-12 description logo-1">
 								<p>
@@ -36,7 +34,7 @@ const Skills = () => {
 
 				<div className="col-sm-12 col-md-4 logo">
 					<span>
-						<img src={ReactLogo} className="img-thumbnail card-6"/>
+						<img src={ReactLogo} alt="React" className="img-thumbnail card-6"/>
 						<span id="display-text">
 						<div className="col-sm-8 col-md-12 description logo-2">
 							<p>
@@ -49,7 +47,7 @@ const Skills = () => {
 
 				<div className="col-sm-12 col-md-4 logo">
 					<span>
-						<img src={Nodejs} className="img-thumbnail card-5"/>
+						<img src={Nodejs} alt="Node.js" className="img-thumbnail card-5"/>
 						<span id="display-text">
 							<div className="col-sm-8 col-md-12 description logo-3">
 								<p>Some experience with Node.js and its ability to serve up
@@ -62,7 +60,7 @@ const Skills = () => {
 
 				<div className="col-sm-12 col-md-4 logo bottom">
 					<span>
-						<img src={Rails} className="img-thumbnail card-3"/>
+						<img src={Rails} alt="Rails" className="img-thumbnail card-3"/>
 						<span id="display-text">
 							<div className="col-sm-8 col-md-12 description logo-4">
 								<p>A profecient Rubiest, with knowledge of MVC and Restful standards, I am able to
@@ -75,7 +73,7 @@ const Skills = () => {
 
 				<div className="col-sm-12 col-md-4 logo bottom">
 					<span>
-						<img src={Sql} className="img-thumbnail card-2"/>
+						<img src={Sql} alt="Sql" className="img-thumbnail card-2"/>
 						<span id="display-text">
 							<div className="col-sm-8 col-md-12 description logo-5">
 								<p>Some understanding of SQL, and its ability to query databases for information.
@@ -87,7 +85,7 @@ const Skills = () => {
 
 				<div className="col-sm-12 col-md-4 logo bottom">
 					<span>
-						<img src={CSSLang} className="img-thumbnail card-7"/>
+						<img src={CSSLang} alt="CSS" className="img-thumbnail card-7"/>
 						<span id="display-text">
 							<div className="col-sm-8 col-md-12 description logo-6">
 								<p>
