@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import '../../styles/Experience.css';
 import Ruby from '../../media/ruby.png';
-import JavaScript from '../../media/javaScript.png';
+// import JavaScript from '../../media/javaScript.png';
 
 import greenCheck from '../../media/green_check.png';
 import rails from '../../media/rails.png';
@@ -40,7 +40,7 @@ const Experience = () => {
 				{/* JavaScript */}
 				<div className="col-sm-12 col-md-6">
 					<div className="col-sm-12 java-script">
-						<img src={JavaScript} className="img-fluid logo" alt="JavaScript Programming Langauge" />	
+						{/* <img src={JavaScript} className="img-fluid logo" alt="JavaScript Programming Langauge" />	 */}
 					</div>
 					<div className="col-sm-12 col-sm-9 pro-con">
 						<p><img src={greenCheck} alt="green check" />It's the Programming Langauge of the Web</p>
