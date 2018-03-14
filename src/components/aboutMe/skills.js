@@ -1,7 +1,7 @@
 import React from 'react'
 import '../../styles/Skills.css';
 
-import JavaScript from '../../media/javaScript.png';
+// import JavaScript from '../../media/javaScript.png';
 import CSSLang from '../../media/css.png';
 import Sql from '../../media/sql.png';
 import Nodejs from '../../media/node.png';
@@ -21,7 +21,7 @@ const Skills = () => {
 	
 					<div className="col-sm-12 col-md-4 logo">
 					<span>
-						<img src={JavaScript} alt="javaScript"className="img-thumbnail card-4"/>
+						{/* <img src={JavaScript} alt="javaScript"className="img-thumbnail card-4"/> */}
 						<span id="display-text">
 						<div className="col-sm-8 col-md-12 description logo-1">
 								<p>
