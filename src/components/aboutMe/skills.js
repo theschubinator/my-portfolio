@@ -8,6 +8,7 @@ import Nodejs from '../../media/node.png';
 import Rails from '../../media/rails.png';
 import ReactLogo from '../../media/react.png';
 
+
 const Skills = () => {
 	return (
 		<div id="skills" className="container-fluid">
