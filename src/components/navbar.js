@@ -12,8 +12,6 @@ import {
   NavLink,
   } from 'reactstrap';
 
-
-
 class NavBar extends Component {
 		constructor(props) {
 			super(props);

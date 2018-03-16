@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 
 import '../../styles/Projects.css';
 import triviaMaster from '../../media/triviaMaster.png';
@@ -10,7 +11,7 @@ const Projects = () => {
 			<div className="row">
 				<div className="col-sm-12">
 					<h1>Projects</h1>
-					<p>For more information about these projects click <a href="/projects">here</a></p>
+					<p>For more information about these projects click <Link to="/projects">here</Link></p>
 				</div>
 			</div>
 			<div className="row">
