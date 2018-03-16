@@ -9,3 +9,9 @@ body {
 	padding: 0;
 }
 
+#page-not-found {
+	margin-top: 100px;
+	text-align: center;
+	padding: 50px;
+}
+
