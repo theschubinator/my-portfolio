@@ -23,7 +23,18 @@ const Resume = () => {
 			<div id="tech-projets new-section">
 				<h1 className="heading">Technical Projects</h1>
 				<div className="section">
-					<h3><strong>Trivia Master - GitHub | Live Demo</strong></h3>
+					<h3><strong>Card Collector - <a href="https://github.com/theschubinator/card-collecter" target="_blank" rel="noopener noreferrer">GitHub</a> | <a href="http://card-collector-app.herokuapp.com/" target="_blank" rel="noopener noreferrer">Live Demo</a></strong></h3>
+					<p>
+						<em>A database system that organizes a collection of trading cards</em> 
+					</p>
+					<ul>
+						<li>Created the API using Rails and the client-side with React, Redux</li>
+						<li>Utilized JWT token for user authorization</li>
+						<li>Implemented promise based requests to Rails with axios client</li>
+					</ul>
+				</div>
+				<div className="section">
+					<h3><strong>Trivia Master - <a href="https://github.com/theschubinator/trivia-master" target="_blank" rel="noopener noreferrer">GitHub</a> | <a href="http://trivia-master.herokuapp.com/" target="_blank" rel="noopener noreferrer">Live Demo</a></strong></h3>
 					<p>
 						<em>A ‘social’ task-manager that helps individuals and organizations to stay accountable to their tasks</em>
 					</p>
@@ -34,7 +45,7 @@ const Resume = () => {
 					</ul>
 				</div>
 				<div className="section">
-					<h3><strong>Stay-Informed - GitHub | Live Demo</strong></h3>
+					<h3><strong>Stay-Informed - <a href="https://github.com/theschubinator/stay-informed" target="_blank" rel="noopener noreferrer">GitHub</a> | <a href="http://stay-informed.herokuapp.com/" target="_blank" rel="noopener noreferrer">Live Demo</a></strong></h3>
 					<p>
 						<em>A trivia game that tests your knowledge in the areas of sports, science, history, and entertainment</em>
 					</p>
@@ -43,16 +54,6 @@ const Resume = () => {
 						<li>Built the back end using Ruby on Rails and the MVC pattern</li>
 						<li>Used OMniAuth for OAuth authentication with Facebook</li>
 						<li>Rendered the front-end with JavaScript, and JQuery</li>
-					</ul>
-				</div>
-				<div className="section">
-					<h3><strong>Card Collection - GitHub | Live Demo</strong></h3>
-					<p>
-						<em>A database system that organizes a collection of trading cards</em>
-					</p>
-					<ul>
-						<li>Used Sinatra to build the MVC application</li>
-						<li>Designed the database with ActiveRecord associations</li>
 					</ul>
 				</div>
 			</div>
@@ -77,7 +78,7 @@ const Resume = () => {
 							</ul>
 						</div>
 						<div className="col-sm-12 basic">
-							<p><em>Basic knowedge with Node.js, SQL, and WordPress</em></p>
+							<p><em>Knowedge with Node.js, GraphQL, SQL, and WordPress</em></p>
 						</div>
 					</div>
 				</div>
