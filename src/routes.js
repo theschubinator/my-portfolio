@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import {BrowserRouter as Router, HashRouter, Route, Switch} from 'react-router-dom';
 
 import Home from './components/homePage/index';
 import AboutMe from './components/aboutMe/index';
@@ -9,7 +9,7 @@ import PageNotFound from './components/pageNotFound';
 
 const Routes = () => {
 	return (
-		<Router>
+		<HashRouter>
 			<Switch>
 				<Route exact path="/" component={Home} />
 				<Route exact path="/about-me" component={AboutMe} />
@@ -17,7 +17,7 @@ const Routes = () => {
 				<Route exact path="/resume" component={Resume} />
 				<Route component={PageNotFound} />
 			</Switch>
-		</Router>
+		</HashRouter>
 	);
 }
 
